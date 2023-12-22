@@ -1,0 +1,6 @@
+name1 = input("Your name: ")
+name2 = input("Their name: ")
+names = name1.lower() + name2.lower()
+first_digit = names.count('t') + names.count('r') + names.count('u') + names.count('e')
+second_digit = names.count('l') + names.count('o') + names.count('v') + names.count('e')
+print(first_digit*10 + second_digit)
